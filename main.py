@@ -53,12 +53,6 @@ logo_img = PhotoImage(file="./images/icons8-password-manager-100.png")
 image = Label(image= logo_img)
 image.place(x = 240, y=50)
 
-# Canvas setup
-# canvas = Canvas(height=300, width=400)
-# logo_img = PhotoImage(file='./images/icons8-password-manager-100.png')
-# canvas.create_image(100, 100, image=logo_img)
-# canvas.pack()
-
 # Label setup
 website_label = Label(text="Website:", font=("poppins", 10))
 website_label.place(x = 20, y= 200)
@@ -78,7 +72,6 @@ website_entry.focus()
 email_info = StringVar()
 email_entry = Entry(width=40, font=("poppins", 10))
 email_entry.place(x = 160, y= 230)
-email_entry.insert(0, "mishraabhisek14@gmail.com")
 
 password_info = StringVar()
 password_entry = Entry(width=27, font=("poppins", 10))
